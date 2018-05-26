@@ -1,0 +1,21 @@
+package flow;
+
+public class CC 
+{
+	int salary=1000;
+}
+
+class Bonus extends CC
+{
+	int bonus=100;
+	
+	public static void main(String[] args) 
+	{
+	   Bonus one=new Bonus();
+	   System.out.println("Employee Salary"+one.salary);
+	   System.out.println("Employee Salary"+one.bonus);
+		
+	
+	}
+	
+}
