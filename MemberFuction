@@ -1,0 +1,30 @@
+package flow;
+
+public class CC 
+{
+	int i=10;
+	static int j=20;
+	
+	
+	public void run()
+	{
+		System.out.println("Inside Non-Static Method");
+	}
+	
+	public static void running()
+	{
+		System.out.println("Inside Static Method");
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println(j);
+		 CC one=new CC();
+		 System.out.println(one.i);
+		 one.run();
+		 running();
+		
+
+	}
+
+}
