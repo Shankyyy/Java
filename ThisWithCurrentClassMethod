@@ -1,0 +1,25 @@
+package flow;
+
+public class CC 
+{
+	public void m()
+	{
+		System.out.println("Hello from M");
+	}
+	
+	public void n()
+	{
+		this.m();
+		System.out.println("Hello from N");
+	}
+	
+	public static void main(String[] args) 
+	{
+		CC one=new CC();
+		one.n();
+	
+	}
+	
+	
+
+}
