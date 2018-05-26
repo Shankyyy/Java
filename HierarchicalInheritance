@@ -1,0 +1,29 @@
+package flow;
+
+public class CC 
+{
+	int i=100;
+}
+class B extends CC
+{
+	int j=200;
+	
+	 public static void main(String[] args) 
+		{
+		  B b=new B();
+		  System.out.println(b.i);
+		  System.out.println(b.j);
+			
+		
+		}
+}
+class C extends CC
+{
+	public static void main(String[] args)
+	{
+		C c=new C();
+		System.out.println(c.i);
+	}
+  
+	
+}
