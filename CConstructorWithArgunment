@@ -1,0 +1,22 @@
+package flow;
+
+public class CC 
+{
+	CC(int a,int b)
+	{
+		System.out.println(a+b);
+
+	}
+	
+	
+
+	public static void main(String[] args) 
+	{
+		
+		 CC one=new CC(5,7);
+		 
+		
+
+	}
+
+}
