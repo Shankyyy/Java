@@ -1,0 +1,29 @@
+package flow;
+
+public class CC 
+{
+	int age;
+	String name;
+	static String college="CMR";
+	
+	CC(int age,String name)
+	{
+		this.age=age;
+		this.name=name;
+	}
+	
+	public void display()
+	{
+		System.out.println(age+" "+name+" "+college);
+	}
+	
+	public static void main(String[] args) 
+	{
+		CC one=new CC(111,"Shankarr");
+		one.display();
+	
+	}
+	
+	
+
+}
