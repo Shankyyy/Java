@@ -1,0 +1,24 @@
+package flow;
+
+public class CC 
+{
+	CC()
+	{
+		System.out.println("Running A.......");
+	}
+}
+class B extends CC
+{
+	B()
+	{
+		System.out.println("Running B.......");
+	}
+	
+		public static void main(String[] args)
+	{
+		B one=new B();
+		
+	}
+  
+	
+}
