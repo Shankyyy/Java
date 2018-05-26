@@ -1,0 +1,16 @@
+# Javapackage apple;
+
+public class EnhancedForLoop 
+{
+
+	public static void main(String[] args)
+	{
+		int arr[]= {1,3,5,7,9,11};
+		for(int j:arr)
+		{
+			System.out.println(j);
+		}
+	}
+	
+
+}
