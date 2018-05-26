@@ -1,0 +1,35 @@
+package apple;
+
+public class SwitchStatement {
+
+	public static void main(String[] args)
+	{
+		char value='c';
+		
+		switch(value)
+		{
+		case'a':
+			System.out.println("Code a");
+			break;
+		
+		
+		 case'b':
+			    System.out.println("Code b");
+			    break;
+			    
+		 case'c':
+			    System.out.println("Code c");
+			    break;
+			    
+		 case'd':
+			    System.out.println("Code d");
+			    break;
+			    
+			    default:
+			    	System.out.println("Not Valid");
+		
+	}
+
+	}
+
+}
