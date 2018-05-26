@@ -1,0 +1,33 @@
+package apple;
+
+public class Method
+{
+
+
+	public static void main(String[] args)
+	{
+		System.out.print(" Execute");
+		 pain();
+		 chain();
+	}
+	public static void chain()
+	{
+		System.out.print(".");
+	}
+	public static void pain()
+	{
+		System.out.print(" the");
+		gain();
+	}
+	public static void gain()
+	{
+		System.out.print(" program ");
+		drain();
+	}
+	public static void drain()
+	{
+		System.out.print("in java");
+	}
+		
+
+}
