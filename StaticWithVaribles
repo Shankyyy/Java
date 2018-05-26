@@ -1,0 +1,30 @@
+package flow;
+
+public class CC 
+{
+	int rollno;
+    String name;
+    static String college;
+    
+    CC(int r,String n)
+    {
+    	rollno=r;
+    	name=n;
+    }
+    
+    public void display()
+    {
+    	System.out.println(rollno+" "+name+" "+college);
+    }
+	
+	
+
+	public static void main(String[] args) 
+	{
+		CC one=new CC(111,"Shankar");
+		CC two=new CC(222,"Ajeet");
+		one.display();
+		two.display();
+	}
+
+}
