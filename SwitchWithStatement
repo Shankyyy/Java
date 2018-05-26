@@ -1,0 +1,49 @@
+package apple;
+
+public class SwitchWithMethod
+{
+
+	public static void main(String[] args)
+	{
+
+		char value='c';
+		
+		switch(value)
+		{
+		case'a':
+			methodA();
+			break;
+		
+		
+		 case'b':
+			 methodB();
+			    break;
+			    
+		 case'c':
+			 methodC();
+			    break;
+			    
+	    default:
+		System.out.println("Not Valid");
+		}
+		
+	}
+
+
+	public static void methodA()
+	{
+		System.out.println("Code a");
+	}
+	public static void methodB()
+	{
+		System.out.println("Code b");
+	}
+	public static void methodC()
+	{
+		System.out.println("Code c");
+	}
+	
+}
+
+
+
