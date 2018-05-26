@@ -1,0 +1,22 @@
+package flow;
+
+public class CC 
+{
+	CC()
+	{
+		System.out.println("Constructer is Created");
+
+	}
+	
+	
+
+	public static void main(String[] args) 
+	{
+		
+		 CC one=new CC();
+		 
+		
+
+	}
+
+}
