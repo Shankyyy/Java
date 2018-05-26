@@ -1,0 +1,27 @@
+package flow;
+
+public class CC 
+{
+	CC()
+	{
+		this(5);
+		System.out.println("Constructor Called!!");
+		
+	}
+	
+	CC(int a)
+	{
+		System.out.println("Second Constructor");
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+		CC one=new CC();
+		
+	
+	}
+	
+	
+
+}
