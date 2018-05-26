@@ -1,0 +1,23 @@
+package flow;
+
+public class CC 
+{
+	String color="White";
+}
+class B extends CC
+{
+	String color="Black";
+	
+	public void printcolor()
+	{
+		System.out.println(color);
+		System.out.println(super.color);
+	}
+		public static void main(String[] args)
+	{
+		B one=new B();
+		one.printcolor();
+	}
+  
+	
+}
