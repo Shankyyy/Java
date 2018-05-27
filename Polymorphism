@@ -1,0 +1,23 @@
+public class CC 
+{
+	public void run()
+	{
+		System.out.println("Running One...");
+	}
+}
+class Running extends CC
+{
+	public void run()
+	{
+       System.out.println("Running Two00...");
+	}
+    	
+		public static void main(String[] args)
+	{
+		CC rvv=new Running();
+		rvv.run();
+
+		
+	}
+  
+}
