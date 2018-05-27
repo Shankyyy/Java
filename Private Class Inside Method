@@ -1,0 +1,20 @@
+public class CCE
+{
+	private int data=100;
+	class B
+	{
+		void eat()
+		{
+			System.out.println("DATA "+ data);
+		}
+	}
+	public static void main(String[] args)
+	{
+		CCE a=new CCE();
+		B b=a.new B();
+		b.eat();
+		
+
+	}
+
+}
