@@ -1,0 +1,49 @@
+package oops;
+
+import oops.Adder.Add.Mull;
+
+public class Adder 
+{
+	public void run()
+	{
+		System.out.println("Running");
+	}
+	class Add
+	{
+		public void draw()
+		{
+			System.out.println("Drawing");
+		}
+		class Mull
+		{
+			public void multi()
+			{
+				System.out.println("Multiply");
+			}
+		}
+	}
+class Sub
+{
+	public void paint()
+	{
+		System.out.println("Painting");
+	}
+}
+	public static void main(String[] args)
+	{
+		Adder a=new Adder();
+		a.run();
+		
+		Add b=a.new Add();
+		b.draw();
+		
+		Mull m=b.new Mull();
+		m.multi();
+		
+		Sub s=a.new Sub();
+		s.paint();
+		
+
+	}
+
+}
