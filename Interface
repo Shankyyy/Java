@@ -1,0 +1,18 @@
+public interface A 
+{
+public void run();
+}
+
+class B implements A
+{
+	public void run()
+	{
+		System.out.println("Running Interface");
+	}
+	
+	public static void main(String[] args)
+	{
+		B rv=new B();
+		rv.run();
+	}
+}
