@@ -1,0 +1,40 @@
+public class Upcasting
+{
+	public void animalMethod()
+	{
+		System.out.println("At Animal");
+	}
+}
+class Cat extends Upcasting
+{
+	public void animalMethod()
+	{
+		System.out.println("At Cat");
+	}
+}
+class Dog extends Upcasting
+{
+	public void animalMethod()
+	{
+		System.out.println("At Dog");
+	}
+}
+class Execute
+{
+
+
+	public static void main(String[] args) 
+	{
+		Upcasting a;
+		
+		a=new Upcasting();
+		a.animalMethod();
+		a=new Cat();
+		a.animalMethod();
+		a=new Dog();
+		a.animalMethod();
+		
+
+	}
+
+}
