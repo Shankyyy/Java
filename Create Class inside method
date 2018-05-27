@@ -1,0 +1,23 @@
+public class CCE
+{
+	void eat()
+	{
+		class B
+		{
+			void msg()
+			{
+				System.out.println("This Message");
+			}
+		}
+		B b=new B();
+		b.msg();
+	}
+	public static void main(String[] args)
+	{
+		CCE a=new CCE();
+		a.eat();
+		
+
+	}
+
+}
