@@ -1,0 +1,25 @@
+public class CCE
+{
+	String name;
+	
+	public String getName()
+	{
+		return name;
+	}
+public void setName(String name)
+{
+	this.name=name;
+}
+}
+class College
+{
+	public static void main(String[] args)
+	{
+		CCE ne=new CCE();
+		ne.setName("Shankar");
+		System.out.println(ne.getName());
+		
+
+	}
+
+}
