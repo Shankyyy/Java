@@ -1,0 +1,41 @@
+abstract class WithPerameter
+{
+	int a=10;
+	static int b=20;
+	
+	
+	abstract void run();
+	
+	
+	public void running()
+	{
+		System.out.println("Bike Started");
+	}
+	WithPerameter()
+	{
+		System.out.println("Bike Running!!");
+	}
+}
+class Hon extends WithPerameter
+{
+	public void run()
+	{
+		System.out.println("Bike Ready");
+	}
+	
+
+	public static void main(String[] args)
+	{
+		WithPerameter rv=new Hon();
+		
+	    System.out.println(rv.a);
+	    System.out.println(WithPerameter.b);
+	    
+	    rv.run();
+	    rv.running();
+
+
+
+	}
+
+}
