@@ -1,0 +1,23 @@
+public class CC 
+{
+	public static int add(int a,int b)
+	{
+		return a+b;
+	}
+	public static double add(int a,double b,int c)
+	{
+		return a+b+c;
+	}
+}
+    class adder
+    {
+    	
+		public static void main(String[] args)
+	{
+		System.out.println(CC.add(2,3));
+		System.out.println(CC.add(2,3.5,5));
+
+		
+	}
+  
+}
