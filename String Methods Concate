@@ -1,0 +1,12 @@
+public class CCE
+{
+	
+	public static void main(String[] args)
+	{
+		String s="Shankar";
+		String rv=s.concat(" Singh");
+		System.out.println(rv);
+
+	}
+
+}
