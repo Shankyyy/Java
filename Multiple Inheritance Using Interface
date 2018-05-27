@@ -1,0 +1,28 @@
+public interface A 
+{
+public void run();
+}
+public interface B
+{
+	public void draw();
+}
+
+class C implements A,B
+{
+	public void run()
+	{
+		System.out.println("Running Interface.....");
+	}
+	
+	public void draw()
+	{
+		System.out.println("Running Interface Two....");
+	}
+	
+	public static void main(String[] args)
+	{
+		C rv=new C();
+		rv.run();
+		rv.draw();
+	}
+}
