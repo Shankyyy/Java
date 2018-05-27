@@ -1,0 +1,27 @@
+package oops;
+
+public class Inner
+{
+	public void run()
+	{
+		System.out.println("Running");
+	}
+	class Add
+	{
+		public void draw()
+		{
+			System.out.println("Drawing");
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		
+		Inner a=new Inner();
+		a.run();
+		
+		Add c=a.new Add();
+		c.draw();
+	}
+
+}
