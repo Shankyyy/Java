@@ -1,0 +1,33 @@
+public abstract class AbstractClassWithDataMember 
+{
+	   int a=90;
+		
+		AbstractClassWithDataMember()
+		{
+			System.out.println("In Construction");
+		}
+		public void draw()
+		{
+			System.out.println("In Draw");
+		}
+		public abstract void run();
+		
+	}
+	class Bdd extends AbstractClassWithDataMember
+	{
+		public void run()
+		{
+			System.out.println("In Run");
+		}
+	
+	
+
+	public static void main(String[] args)
+	{
+		Bdd d=new Bdd();
+		System.out.println(d.a);
+		d.draw();
+		d.run();
+	}
+
+}
